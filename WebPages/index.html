@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>
+			Mareola's Calculator
+		</title>
+	</head>
+		<link rel="stylesheet" type="text/css" href="../Css/style.css">
+	<body onload="off_all()">
+		<div class="parent_wrapper">
+			<div class="child_wrapper">
+
+
+				<div class="calculator_wrapper">
+					<div class="display">
+						<input type="text" name="" id="display_screen" disabled>
+						<section id="display_message"><span><input type="text" id="error_screen" placeholder="Error" disabled></span><span><input type="text" id="operator_screen" placeholder="Operator" disabled></span><span><input type="text" id="length_screen" placeholder="Length" disabled></span></section>
+					</div>
+					<div class="control_keys">
+						<section id="clear" onmousedown="clear_color()" onmouseup="clear_color1()" onmouseenter="clear_color2()" onmouseleave="clear_color3()"><button id="clear1" onclick="clear_clear()">CLEAR</button></section><section id="on"><button id="on1" onclick="onit()">ON</button></section>
+					</div>
+						<div class="numkeys">
+							<div class="numkeys_row1">
+								<section><button id="seven" onclick="seven_seven()" onmousedown="seven_color()" onmouseup="seven_color1()" onmouseenter="seven_color2()" onmouseleave="seven_color3()">7</button></section><section><button id="eight" onclick="eight_eight()" onmousedown="eight_color()" onmouseup="eight_color1()" onmouseenter="eight_color2()" onmouseleave="eight_color3()">8</button></section><section><button id="nine" onclick="nine_nine()" onmousedown="nine_color()" onmouseup="nine_color1()" onmouseenter="nine_color2()" onmouseleave="nine_color3()">9</button></section><section><button id="plus" onclick="plus_plus()" onmousedown="plus_color()" onmouseup="plus_color1()" onmouseenter="plus_color2()" onmouseleave="plus_color3()">+</button></section>
+							</div>
+							<div class="numkeys_row2">
+								<section><button id="four" onclick="four_four()" onmousedown="four_color()" onmouseup="four_color1()" onmouseenter="four_color2()" onmouseleave="four_color3()">4</button></section><section><button id="five" onclick="five_five()" onmousedown="five_color()" onmouseup="five_color1()" onmouseenter="five_color2()" onmouseleave="five_color3()">5</button></section><section><button id="six" onclick="six_six()" onmousedown="six_color()" onmouseup="six_color1()" onmouseenter="six_color2()" onmouseleave="six_color3()">6</button></section><section><button id="minus" onclick="minus_minus()" onmousedown="minus_color()" onmouseup="minus_color1()" onmouseenter="minus_color2()" onmouseleave="minus_color3()">-</button></section>
+							</div>
+							<div class="numkeys_row3">
+								<section><button id="one" onclick="one_one()" onmousedown="one_color()" onmouseup="one_color1()" onmouseenter="one_color2()" onmouseleave="one_color3()">1</button></section><section><button id="two" onclick="two_two()" onmousedown="two_color()" onmouseup="two_color1()" onmouseenter="two_color2()" onmouseleave="two_color3()">2</button></section><section><button id="three" onclick="three_three()" onmousedown="three_color()" onmouseup="three_color1()" onmouseenter="three_color2()" onmouseleave="three_color3()">3</button></section><section><button id="times" onclick="times_times()" onmousedown="times_color()" onmouseup="times_color1()" onmouseenter="times_color2()" onmouseleave="times_color3()">&times;</button></section>
+							</div>
+							<div class="numkeys_row4">
+								<section><button id="zero" onclick="zero_zero()" onmousedown="zero_color()" onmouseup="zero_color1()" onmouseenter="zero_color2()" onmouseleave="zero_color3()">0</button></section><section><button id="decimal" onclick="decimal_decimal()" onmousedown="decimal_color()" onmouseup="decimal_color1()" onmouseenter="decimal_color2()" onmouseleave="decimal_color3()">.</button></section><section><button id="divide" onclick="divide_divide()" onmousedown="divide_color()" onmouseup="divide_color1()" onmouseenter="divide_color2()" onmouseleave="divide_color3()">&divide;</button></section><section><button id="equals" onmousedown="equals_color()" onmouseup="equals_color1()" onmouseenter="equals_color2()" onmouseleave="equals_color3()">=</button></section>
+							</div>
+						</div>
+
+				</div>
+
+
+			</div>
+		</div>
+		<script type="text/javascript" src="../JavaScript/myscript.js"></script>
+	</body>
+</html>
